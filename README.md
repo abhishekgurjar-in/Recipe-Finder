@@ -1,7 +1,7 @@
 # Recipe Finder Website
 
 #### Introduction
-In this blog, we'll be building a **Recipe Finder Website** using React. This app allows users to search for their favorite recipes, view trending or new recipes, and save their favorite ones. We will leverage the **Edamam API** to fetch real-time recipe data and display it dynamically on the website.
+The Recipe Finder built with React offers a quick and simple way to search for recipes online. Powered by the Edamam API, it provides users with real-time results based on their preferences, whether they're looking for trending dishes or saving favorites. This project focuses on creating a clean, user-friendly interface to make recipe hunting easy and enjoyable. Let's explore how to build it step by step!
 
 #### Project Overview
 The **Recipe Finder** allows users to:
