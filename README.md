@@ -72,7 +72,9 @@ To run this project locally, follow these steps:
 
 #### Live Demo
 You can view the live demo of the project [here](https://recipe-finder-in.netlify.app).
+
 #### Screenshots
+
 ![Screenshot 2024-09-13 080658](https://github.com/user-attachments/assets/ce9602e2-9449-4258-abc1-9899b87de834)
 
 
