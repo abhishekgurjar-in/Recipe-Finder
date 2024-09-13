@@ -1,8 +1,89 @@
-# React + Vite
+# Recipe Finder Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Introduction
+In this blog, we'll be building a **Recipe Finder Website** using React. This app allows users to search for their favorite recipes, view trending or new recipes, and save their favorite ones. We will leverage the **Edamam API** to fetch real-time recipe data and display it dynamically on the website.
 
-Currently, two official plugins are available:
+#### Project Overview
+The **Recipe Finder** allows users to:
+- Search for recipes by name.
+- View trending and newly added recipes.
+- View detailed information about individual recipes.
+- Add recipes to a favorites list and persist the data using `localStorage`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Features
+- **Search Functionality**: Users can search for recipes by entering a query.
+- **Trending Recipes**: Displays currently trending recipes from the API.
+- **New Recipes**: Displays the latest recipes from the API.
+- **Recipe Detail**: Displays detailed information about a selected recipe.
+- **Favorites**: Allows users to add recipes to a favorites list, which is saved locally.
+
+#### Technologies Used
+- **React**: For building the user interface.
+- **React Router**: For navigation between different pages.
+- **Edamam API**: For fetching recipes.
+- **CSS**: For styling the application.
+
+#### Project Structure
+
+```plaintext
+src/
+│
+├── components/
+│   └── Navbar.js
+│
+├── pages/
+│   ├── Home.js
+│   ├── About.js
+│   ├── Trending.js
+│   ├── NewRecipe.js
+│   ├── RecipeDetail.js
+│   ├── Contact.js
+│   └── Favorites.js
+│
+├── App.js
+├── index.js
+├── App.css
+└── index.css
+```
+
+#### Installation
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abhishekgurjar_in/recipe-finder.git
+   cd recipe-finder
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the React app:
+   ```bash
+   npm start
+   ```
+
+4. Obtain your **Edamam API** credentials (API ID and API Key) from the [Edamam website](https://www.edamam.com/).
+
+5. Add your API credentials inside the pages where API calls are made, such as `Home.js`, `Trending.js`, `NewRecipe.js`, and `RecipeDetail.js`.
+
+
+#### Live Demo
+You can view the live demo of the project [here](https://recipe-finder-in.netlify.app).
+#### Screenshots
+![Screenshot 2024-09-13 080658](https://github.com/user-attachments/assets/ce9602e2-9449-4258-abc1-9899b87de834)
+
+
+#### Conclusion
+The **Recipe Finder Website** is a powerful tool for anyone looking to discover new and trending recipes. By leveraging React for the front end and the Edamam API for data, we can provide a seamless user experience. You can further customize this project by adding features such as pagination, user authentication, or even more detailed filtering options.
+
+Feel free to experiment with the project and make it your own!
+
+#### Credits
+- API: [Edamam](https://www.edamam.com/)
+- Icons: [React Icons](https://react-icons.github.io/react-icons/)
+
+#### Author
+**Abhishek Gurjar** is a dedicated web developer passionate about creating practical and functional web applications. Check out more of his projects on [GitHub](https://github.com/abhishekgurjar-in).
